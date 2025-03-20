@@ -28,7 +28,7 @@ JarCVEScanner is a powerful, open-source Python tool designed to identify vulner
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/JarCVEScanner.git
+   git clone https://github.com/ramjeepentakota/JarCVEScanner.git
    cd JarCVEScanner
 Install Dependencies:
 bash
@@ -81,8 +81,6 @@ Output Format: Change output_format in the last line of the script:
 📦 Code Snippet
 Here’s the core of the tool:
 
-
-Copy
 def scan_jars(jar_list, output_format="csv"):
     report = {"timestamp": str(datetime.now()), "results": []}
     for jar_path in jar_list:
@@ -122,4 +120,4 @@ Powered by NVD for CVE data.
 Special thanks to the Python community!
 Ready to secure your Java projects? Star this repo and start scanning today! ⭐
 
-text
+
